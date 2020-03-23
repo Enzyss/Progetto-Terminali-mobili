@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cambioLogo"
+        android:paddingTop="70dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Cambio Logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Per vedere una preview di come viene il logo clicca il tasto Preview, dopodichè per confermare clicca su conferma" />
+
+    <Button
+        android:id="@+id/previewLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#FFFF"
+        android:textSize="21sp"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:text="Preview" />
+
+    <ImageView
+        android:id="@+id/logoCambiare"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pallone"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

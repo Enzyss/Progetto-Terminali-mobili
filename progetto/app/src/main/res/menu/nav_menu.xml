@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_prenotare"
+
+            android:title="Prenotare"/>
+        <item
+            android:id="@+id/nav_prenotazioni_pers"
+
+            android:title="Prenotazioni personali"/>
+        <item
+            android:id="@+id/nav_contatti"
+
+            android:title="Contatti"/>
+        <item
+            android:id="@+id/nav_cancellare"
+            android:title="Cancellare prenotazione"/>
+    </group>
+
+    <item android:title="Account Settings">
+        <menu>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Sign Out"/>
+        </menu>
+    </item>
+
+    <item android:title="Opzioni amministratore">
+        <menu>
+            <item
+                android:id="@+id/nav_cambioLogo"
+
+                android:title="Cambio logo" />
+            <item
+                android:id="@+id/nav_manutenzione"
+                android:title="Manutenzione" />
+        </menu>
+    </item>
+
+</menu>

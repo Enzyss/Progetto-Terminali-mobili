@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="100dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Contatti" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contatti_id"
+        android:paddingTop="20dp"
+        android:text="Numero di telefono: 3342033166\n
+\n
+Email: enzo.guastafierro1@gmail.com\n
+\n
+Indirizzo: Via chiaia 69" />
+
+
+
+
+</LinearLayout>

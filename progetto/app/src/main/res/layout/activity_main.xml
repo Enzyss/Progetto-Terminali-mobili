@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    android:background="@drawable/login_background"
+    tools:openDrawer="start" >
+
+    <LinearLayout
+        android:id="@+id/home_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="184dp">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/registration_layout"
+        android:visibility="gone"
+        layout="@layout/user_registration" />
+
+    <include
+        android:id="@+id/login_layout"
+        android:visibility="gone"
+        layout="@layout/login" />
+
+    <include
+        android:id="@+id/agenda_layout"
+        android:visibility="gone"
+        layout="@layout/agenda" />
+
+    <include
+        android:id="@+id/prenota_campo"
+        android:visibility="gone"
+        layout="@layout/prenotare_campo" />
+
+    <include
+        android:id="@+id/prenotazioni_pers"
+        android:visibility="gone"
+        layout="@layout/prenotazioni_personali" />
+
+    <include
+        layout="@layout/content_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include
+        android:id="@+id/cancellare_prenotazioni"
+        android:visibility="gone"
+        layout="@layout/cancella_prenotazioni" />
+
+    <include
+        android:id="@+id/changeManutenzione"
+        android:visibility="gone"
+        layout="@layout/admin_manutenzione" />
+
+    <include
+        android:id="@+id/ChangeLogo"
+        android:visibility="gone"
+        layout="@layout/admin_cambio_logo" />
+
+    <include
+        layout="@layout/contatti"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Contatti"
+        android:visibility="gone"/>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

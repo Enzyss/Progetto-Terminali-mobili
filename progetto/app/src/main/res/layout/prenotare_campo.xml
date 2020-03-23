@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="130dp"
+        android:text="Prenotare campo" >
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/pren_calcio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="80dp"
+        android:textSize="16dp"
+        android:text="Tipologia di campo: CALCIO
+                      \n Impianto di riscaldamento: presente
+                      \n Impianto di illuminazione: 16 riflettori
+                      \n Irrigazione: impianto manuale
+                      \n Stato del campo: naturale"/>
+
+    <TextView
+        android:id="@+id/timeTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="prova" />
+
+    <TextView
+        android:id="@+id/giornoTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="prova" />
+
+    <Button
+        android:id="@+id/data_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#FFFF"
+        android:textSize="21sp"
+        android:background="@drawable/login_background"
+        android:layout_marginBottom="20dp"
+        android:text="Scegli data" />
+
+    <Button
+        android:id="@+id/calcio_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#FFFF"
+        android:textSize="21sp"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:text="Prenota" />
+
+    <TextView
+        android:id="@+id/pren_calciotto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:textSize="16dp"
+        android:text="Tipologia di campo: CALCIOTTO
+                      \n Impianto di riscaldamento: presente
+                      \n Impianto di illuminazione: 16 riflettori
+                      \n Irrigazione: impianto manuale
+                      \n Stato del campo: naturale"/>
+
+    <Button
+        android:id="@+id/data_calciotto_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#FFFF"
+        android:textSize="21sp"
+        android:background="@drawable/login_background"
+        android:layout_marginBottom="20dp"
+        android:text="Scegli data" />
+
+    <Button
+        android:id="@+id/calciotto_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#FFFF"
+        android:textSize="21sp"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:text="Prenota" />
+
+    <TextView
+        android:id="@+id/timeCalciottoTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="prova" />
+
+    <TextView
+        android:id="@+id/giornoCalciottoTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="prova" />
+
+</LinearLayout>
